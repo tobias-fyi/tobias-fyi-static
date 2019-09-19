@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A Pelican Blog - Testing</title><link href="/" rel="alternate"></link><link href="/feeds/testing.atom.xml" rel="self"></link><id>/</id><updated>2019-09-19T00:00:00+00:00</updated><entry><title>My First (Test) Article Using Pelican</title><link href="/test-this.html" rel="alternate"></link><published>2019-09-19T00:00:00+00:00</published><updated>2019-09-19T00:00:00+00:00</updated><author><name>Tobias Reaper</name></author><id>tag:None,2019-09-19:/test-this.html</id><summary type="html">&lt;p&gt;Here's a brief summary of my test - it's a test.&lt;/p&gt;</summary><content type="html">&lt;h2&gt;here's a header&lt;/h2&gt;
+&lt;p&gt;Here's some body content of the article.&lt;/p&gt;
+&lt;p&gt;Here's some more content—regular paragraph content.&lt;/p&gt;
+&lt;h3&gt;Here's a Code Snippet Test&lt;/h3&gt;
+&lt;table class="highlighttable"&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt; 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;django.db&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;models&lt;/span&gt;
+
+&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;wagtail.core.models&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;Page&lt;/span&gt;
+&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;wagtail.core.fields&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;RichTextField&lt;/span&gt;
+&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;wagtail.admin.edit_handlers&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;FieldPanel&lt;/span&gt;
+
+
+&lt;span class="k"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;HomePage&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;Page&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="n"&gt;body&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;RichTextField&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;blank&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="bp"&gt;True&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+    &lt;span class="n"&gt;content_panels&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;Page&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;content_panels&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;FieldPanel&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;body&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;classname&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;full&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)]&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;p&gt;Now time for some &lt;code&gt;inline_code = snip(pets)&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;How about &lt;a href="https://docs.getpelican.com/en/stable/content.html"&gt;an external link?&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Visuals Are Good®&lt;/h3&gt;
+&lt;p&gt;Here's an image test. First with a &lt;code&gt;.png&lt;/code&gt; file.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="tobias fyi logo" src="/images/19-09-tobias-fyi-logo.png"&gt;&lt;/p&gt;
+&lt;p&gt;Here's with the &lt;code&gt;{attach}&lt;/code&gt; syntax:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="tobias fyi logo" src="/images/19-09-tobias-fyi-logo.png"&gt;&lt;/p&gt;
+&lt;p&gt;And now with an svg.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="tobias fyi logo - now in svg!" src="/images/19-09-tobias-fyi-logo.svg"&gt;&lt;/p&gt;
+&lt;h2&gt;Some Other Pages&lt;/h2&gt;
+&lt;p&gt;Testing out some &lt;a href="/pages/fyi.html"&gt;internal linkages&lt;/a&gt;.&lt;/p&gt;</content><category term="Testies"></category></entry></feed>

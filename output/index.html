@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <title>tobias.fyi</title>
+        <link rel="stylesheet" href="https://tobias.fyi/theme/css/main.css" />
+        <link href="https://tobias.fyi/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="tobias.fyi Atom Feed" />
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="https://tobias.fyi/">tobias.fyi </a></h1>
+                <nav><ul>
+                    <li><a href="https://tobias.fyi/pages/fyi.html">FYI</a></li>
+                    <li><a href="https://tobias.fyi/category/testing.html">Testing</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+
+            <aside id="featured" class="body">
+                <article>
+                    <h1 class="entry-title"><a href="https://tobias.fyi/test-this.html">My First (Test) Article Using Pelican</a></h1>
+<footer class="post-info">
+        <abbr class="published" title="2019-09-19T00:00:00-06:00">
+                Published: Thu 19 September 2019
+        </abbr>
+		<br />
+        <abbr class="modified" title="2019-09-19T00:00:00-06:00">
+                Updated: Thu 19 September 2019
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="https://tobias.fyi/author/tobias-reaper.html">Tobias Reaper</a>
+        </address>
+<p>In <a href="https://tobias.fyi/category/testing.html">Testing</a>.</p>
+<p>tags: <a href="https://tobias.fyi/tag/testies.html">Testies</a> </p>
+</footer><!-- /.post-info --><h2>here's a header</h2>
+<p>Here's some body content of the article.</p>
+<p>Here's some more content—regular paragraph content.</p>
+<h3>Here's a Code Snippet Test</h3>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">django.db</span> <span class="kn">import</span> <span class="n">models</span>
+
+<span class="kn">from</span> <span class="nn">wagtail.core.models</span> <span class="kn">import</span> <span class="n">Page</span>
+<span class="kn">from</span> <span class="nn">wagtail.core.fields</span> <span class="kn">import</span> <span class="n">RichTextField</span>
+<span class="kn">from</span> <span class="nn">wagtail.admin.edit_handlers</span> <span class="kn">import</span> <span class="n">FieldPanel</span>
+
+
+<span class="k">class</span> <span class="nc">HomePage</span><span class="p">(</span><span class="n">Page</span><span class="p">):</span>
+    <span class="n">body</span> <span class="o">=</span> <span class="n">RichTextField</span><span class="p">(</span><span class="n">blank</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+
+    <span class="n">content_panels</span> <span class="o">=</span> <span class="n">Page</span><span class="o">.</span><span class="n">content_panels</span> <span class="o">+</span> <span class="p">[</span><span class="n">FieldPanel</span><span class="p">(</span><span class="s2">&quot;body&quot;</span><span class="p">,</span> <span class="n">classname</span><span class="o">=</span><span class="s2">&quot;full&quot;</span><span class="p">)]</span>
+</pre></div>
+</td></tr></table>
+
+<p>Now time for some <code>inline_code = snip(pets)</code>.</p>
+<p>How about <a href="https://docs.getpelican.com/en/stable/content.html">an external link?</a></p>
+<h3>Visuals Are Good®</h3>
+<p>Here's an image test. First with a <code>.png</code> file.</p>
+<p><img alt="tobias fyi logo" src="https://tobias.fyi/images/19-09-tobias-fyi-logo.png"></p>
+<p>Here's with the <code>{attach}</code> syntax:</p>
+<p><img alt="tobias fyi logo" src="https://tobias.fyi/images/19-09-tobias-fyi-logo.png"></p>
+<p>And now with an svg.</p>
+<p><img alt="tobias fyi logo - now in svg!" src="https://tobias.fyi/images/19-09-tobias-fyi-logo.svg"></p>
+<h2>Some Other Pages</h2>
+<p>Testing out some <a href="https://tobias.fyi/pages/fyi.html">internal linkages</a>.</p>                </article>
+            </aside><!-- /#featured -->
+        <section id="extras" class="body">
+                <div class="blogroll">
+                        <h2>links</h2>
+                        <ul>
+                            <li><a href="http://getpelican.com/">Pelican</a></li>
+                            <li><a href="http://python.org/">Python.org</a></li>
+                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+                            <li><a href="#">You can modify those links in your config file</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="https://tobias.fyi/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+
+                            <li><a href="https://twitter.com/tobiasfyi">Twitter</a></li>
+                            <li><a href="#">Another social link</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>
