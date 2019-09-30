@@ -14,8 +14,10 @@ TIMEZONE = "America/Denver"
 
 DEFAULT_LANG = "en"
 
+STATIC_PATHS = ["images"]
+
 # Theme settings
-THEME = "medius"
+THEME = "themes/medius"
 
 MEDIUS_AUTHORS = {
     "Tobias Reaper": {

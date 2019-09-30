@@ -1,0 +1,3 @@
+[submodule "themes/medius"]
+	path = themes/medius
+	url = git@github.com:tobias-fyi/medius.git
