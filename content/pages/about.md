@@ -8,3 +8,5 @@ Author: Tobias Reaper
 Summary: This page is FYI.
 
 My name is Tobias.
+
+I am currently a student of Data Science at Lambda School.

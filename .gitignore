@@ -1,5 +1,7 @@
 # Project-specific
 inspiration/
+datasets/
+assets/
 
 # Large / Creative / Visual Files or Dirs
 *.psd
