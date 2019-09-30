@@ -124,7 +124,7 @@ With that in mind, I spent a while combing through the massive list of subreddit
 
 Using Python, I wrote some clever loops (at least I thought so) that went through the lists of keywords and subreddits, constructing the URL for each combination and sending it off to the API. For each keyword-subreddit combination, the parameters I included in my request told the API to aggregate the number of comments containing the keywords into monthly buckets.
 
-The function I wrote to do this saved the data to both a Pandas DataFrame, for immediate use in my JupyterLab environment, and to a CSV file, for future use. The raw data is [available in CSV form on GitHub](https://github.com/tobias-fyi/data-may-differ/tree/master/projects/sci_fi_irl/009-Session/data), in case you want to take a look for yourself or use it to do your own analysis.
+The function I wrote to do this saved the data to both a Pandas DataFrame, for immediate use in my JupyterLab environment, and to a CSV file, for future use. The raw data is [available in CSV form on GitHub](https://github.com/tobias-fyi/tobias-fyi/tree/master/data/001-sci_fi_irl), in case you want to take a look for yourself or use it to do your own analysis.
 
 I'll be publishing a separate article that gets into the nitty gritty of the code I wrote to gather and visualize the data. If you're reading this paragraph, that "tutorial" piece has not been published yet. I will link to it from here when it goes live.
 
