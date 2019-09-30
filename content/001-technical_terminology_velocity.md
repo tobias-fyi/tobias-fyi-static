@@ -4,7 +4,7 @@ Date: 2019-09-27
 Modified: 2019-09-27
 Category: Sci-Fi IRL
 Tags: Python, Data, Media
-Slug: technology-terminology-velocity
+Slug: technical-terminology-velocity
 Author: Tobias Reaper
 Cover: images/keyboard.jpg
 Thumbnail: images/keyboard.jpg
