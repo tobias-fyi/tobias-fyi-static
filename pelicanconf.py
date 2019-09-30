@@ -17,7 +17,7 @@ DEFAULT_LANG = "en"
 STATIC_PATHS = ["images"]
 
 # Theme settings
-THEME = "themes/medius"
+THEME = "theme/medius"
 
 MEDIUS_AUTHORS = {
     "Tobias Reaper": {
